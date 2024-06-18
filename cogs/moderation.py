@@ -21,7 +21,7 @@ from key_generator.key_generator import generate
 from wonderwords import RandomSentence
 from static import buttons
 
-roblox = Client()
+roblox = Client("ROBLOX_TOKEN")
 
 
 connection = sqlite3.connect("database.sqlite")
